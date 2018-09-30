@@ -41,18 +41,18 @@ fn main() {
         .parse("generator=trace")
         .init();
 
-    let matches = App::new("generator-rs")
+    let matches = App::new("generator_rs")
         .version("0.1.0")
         .author("Raphael Matile <raphael.matile@gmail.com>")
         .about("Generate cryptographic material for a vote")
-        .usage("generator-rs [keys | uciv] [-h | -v]")
+        .usage("generator_rs [keys | uciv] [-h | -v]")
         .subcommand(
             SubCommand::with_name("keys")
-                .about("Generate a private/public keypair and writes to private_key.json and public_key.json")
+                .about("Generate a private/public keypair and write to private_key.json and public_key.json")
         )
         .subcommand(
             SubCommand::with_name("uciv")
-            .about("Generate UCIV information for voters")
+            .about("Generate UCIV information for voters and write to private_uciv.json and public_uciv.json")
             .arg(Arg::with_name("number_voters")
                 .required(true)
                 .takes_value(true)
