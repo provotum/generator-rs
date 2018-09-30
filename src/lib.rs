@@ -5,6 +5,7 @@ extern crate log;
 extern crate pretty_env_logger;
 extern crate env_logger;
 
+extern crate num;
 extern crate crypto_rs;
 
 pub mod generator;

@@ -1,3 +1,8 @@
 
 /target
 **/*.rs.bk
+
+private_key.json
+private_uciv.json
+public_key.json
+public_uciv.json
