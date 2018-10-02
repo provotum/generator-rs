@@ -2,6 +2,7 @@
 name = "generator_rs"
 version = "0.1.0"
 authors = ["Raphael Matile <raphael.matile@gmail.com>"]
+exclude = ["benches/*"]
 
 [dependencies]
 serde = "1.0"
