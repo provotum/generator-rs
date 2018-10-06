@@ -1,4 +1,4 @@
-configuration-rs
+generator-rs
 ================
 
 Create cryptographic material used for an election:
@@ -63,3 +63,15 @@ To generate an updated set of the docs, run
 ```
 cargo doc --no-deps
 ```
+
+## Benchmarks
+
+To run this test, you need to have nightly rust installed:
+ ```
+ rustup install nightly
+ ```
+
+Then run
+ ```
+ rustup run nightly cargo bench
+ ```

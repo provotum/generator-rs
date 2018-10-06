@@ -12,5 +12,5 @@ clap = "2.26.0"
 log = "0.4"
 env_logger = "0.5.13"
 pretty_env_logger = "0.2"
-crypto-rs = { git = "https://github.com/provotum/crypto-rs.git", branch = "master" }
+crypto-rs = { git = "https://github.com/provotum/crypto-rs.git", version = "0.1.2" }
 num = "0.2.0"

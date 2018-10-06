@@ -21,7 +21,7 @@ use clap::{Arg, App, SubCommand};
 ///
 /// ```sh
 /// USAGE:
-///     generator-rs [keys | uciv] [-h | -v]
+///     generator_rs [keys | uciv] [-h | -v]
 ///
 /// FLAGS:
 ///     -h, --help       Prints help information
@@ -38,7 +38,7 @@ fn main() {
         //let's just set some random stuff.. for more see
         //https://docs.rs/env_logger/0.5.0-rc.1/env_logger/struct.Builder.html
         .target(Target::Stdout)
-        .parse("generator=trace")
+        .parse("generator_rs=trace")
         .init();
 
     let matches = App::new("generator_rs")

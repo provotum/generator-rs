@@ -11,9 +11,9 @@
 //! # Results
 //!
 //! test bench_generate_uciv_10000_voters_4_options ... bench: 2,732,260,250 ns/iter (+/- 467,276,283)
-//! test bench_generate_uciv_1000_voters_4_options ... bench: 264,435,553 ns/iter (+/- 16,377,516)
-//! test bench_generate_uciv_100_voters_4_options  ... bench:  26,280,414 ns/iter (+/- 1,002,463)
-//! test bench_generate_uciv_10_voters_4_options   ... bench:   2,626,337 ns/iter (+/- 186,031)
+//! test bench_generate_uciv_1000_voters_4_options ...  bench:   264,435,553 ns/iter (+/- 16,377,516)
+//! test bench_generate_uciv_100_voters_4_options  ...  bench:    26,280,414 ns/iter (+/- 1,002,463)
+//! test bench_generate_uciv_10_voters_4_options   ...  bench:     2,626,337 ns/iter (+/- 186,031)
 
 #![feature(test)]
 
